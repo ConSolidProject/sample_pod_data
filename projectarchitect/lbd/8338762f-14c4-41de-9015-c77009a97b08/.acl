@@ -1,0 +1,16 @@
+@prefix  acl:  <http://www.w3.org/ns/auth/acl#> .       
+        
+    <#e0a31ddc-80a6-47b5-a2c4-d9e55cf972d9>
+        a acl:Authorization;
+        acl:accessTo    <./>;
+        acl:default     <./> ;
+        <http://www.w3.org/ns/auth/acl#agent> <http://localhost:5000/projectarchitect/profile/card#me>;
+        acl:mode <http://www.w3.org/ns/auth/acl#Read>, <http://www.w3.org/ns/auth/acl#Write>, <http://www.w3.org/ns/auth/acl#Append>, <http://www.w3.org/ns/auth/acl#Control>.
+            
+    <#7930f985-1656-494b-8f59-8ad007b56a57>
+        a acl:Authorization;
+        acl:accessTo    <./>;
+        acl:default     <./> ;
+        <http://www.w3.org/ns/auth/acl#agentClass> <http://xmlns.com/foaf/0.1/Agent>;
+        acl:mode <http://www.w3.org/ns/auth/acl#Read>.
+            

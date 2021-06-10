@@ -1,0 +1,22 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix lbd: <https://lbdserver.org/vocabulary#>.     
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.    
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<>
+    a foaf:PersonalProfileDocument;
+    foaf:maker <http://localhost:5000/projectpod/profile/card>;
+    foaf:primaryTopic <http://localhost:5000/projectpod/profile/card>.
+
+<http://localhost:5000/projectpod/profile/card>
+    solid:oidcIssuer <http://localhost:5000/>;
+    a lbd:Project ;
+    a dcat:Catalog ;
+    lbd:hasProjectId "8338762f-14c4-41de-9015-c77009a97b08";
+    rdfs:label "8338762f-14c4-41de-9015-c77009a97b08";
+    dct:title "Project Duplex"@en ;
+    lbd:hasStakeholderNetwork <http://localhost:5000/projectpod/data/stakeholders> ;
+    lbd:hasProjectPlanning <http://localhost:5000/projectpod/data/planning> .
+

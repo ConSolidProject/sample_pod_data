@@ -1,0 +1,13 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix solid: <http://www.w3.org/ns/solid/terms#>.
+@prefix lbd: <https://lbdserver.org/vocabulary#>.     
+
+<>
+    a foaf:PersonalProfileDocument;
+    foaf:maker <>;
+    foaf:primaryTopic <>.
+
+<>
+    solid:oidcIssuer <http://localhost:5000/>;
+    a foaf:Person;
+    lbd:hasProjectRegistry <http://localhost:5000/projectarchitect/lbd/>.

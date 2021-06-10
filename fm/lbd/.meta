@@ -1,0 +1,3 @@
+@prefix lbd: <https://lbdserver.org/vocabulary#> .
+
+<8338762f-14c4-41de-9015-c77009a97b08/>  a lbd:PartialProject .

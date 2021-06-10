@@ -1,0 +1,17 @@
+# Root ACL resource for the agent account
+@prefix acl: <http://www.w3.org/ns/auth/acl#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+
+# The homepage is readable by the public
+<#public>
+    a acl:Authorization;
+    acl:agentClass foaf:Agent;
+    acl:accessTo <./stakeholders>;
+    acl:mode acl:Read.
+
+<#owner>
+    a acl:Authorization;
+    acl:agent <http://localhost:5000/projectpod/profile/card>;
+    acl:accessTo <./stakeholders>;
+    acl:default <./stakeholders>;
+    acl:mode acl:Read, acl:Write, acl:Control.
