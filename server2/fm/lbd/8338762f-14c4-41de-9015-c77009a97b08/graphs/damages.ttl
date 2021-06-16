@@ -1,0 +1,13 @@
+@prefix lbd: <https://lbdserver.org/vocabulary#> .
+@prefix inst:  <http://consolidproject.org/models/duplex/> .
+@prefix dot: <https://w3id.org/dot#> .
+
+inst:slab_6b61ce71-1a7a-473c-8f87-4262e0bdbd56 dot:hasDamage inst:dam1 .
+
+inst:window_ec3c3096-3ef7-4c85-b840-7153ac629458 dot:hasDamage inst:dam2 .
+
+inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdc223 dot:hasDamage inst:dam3 .
+
+inst:door_6b61ce71-1a7a-473c-8f87-4262e0bdb41a dot:hasDamage inst:dam4 .
+
+inst:window_6b61ce71-1a7a-473c-8f87-4262e0bdccc1 dot:hasDamage inst:dam5 .

@@ -1,7 +1,7 @@
 @prefix  lbd:  <http://lbdserver.org/vocabulary#> . 
 
 <http://localhost:5000/projectpod/profile/card> 
-    lbd:hasStakeholder <http://localhost:5000/fm/profile/card>, <http://localhost:5000/projectarchitect/profile/card> ;
+    lbd:hasStakeholder <http://localhost:5001/fm/profile/card>, <http://localhost:5000/projectarchitect/profile/card> ;
     lbd:hasArchitect <http://localhost:5000/projectarchitect/profile/card> ;
-    lbd:hasFacilityManager <http://localhost:5000/fm/profile/card> ;
+    lbd:hasFacilityManager <http://localhost:5001/fm/profile/card> ;
     lbd:hasOwner <https://pod.inrupt.com/jwerbrouck/profile/card#me> .

@@ -13,7 +13,6 @@
 <http://localhost:5000/projectpod/profile/card>
     solid:oidcIssuer <http://localhost:5000/>;
     a lbd:Project ;
-    a dcat:Catalog ;
     lbd:hasProjectId "8338762f-14c4-41de-9015-c77009a97b08";
     rdfs:label "8338762f-14c4-41de-9015-c77009a97b08";
     dct:title "Project Duplex"@en ;
